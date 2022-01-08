@@ -8,15 +8,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "ChobiDesh",
+      title: "Test",
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.blue,
         fontFamily: "AdventPro",
       ),
       home: Scaffold(
         appBar: AppBar(
           title: Text(
-            "ChobiDesh".toUpperCase(),
+            "Test".toUpperCase(),
             style: TextStyle(letterSpacing: 1.5, fontWeight: FontWeight.w600),
           ),
           centerTitle: true,
